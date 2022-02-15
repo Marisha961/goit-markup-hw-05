@@ -392,7 +392,7 @@ img {
   color: var(--icon-color);
 
   transition-property: color, background-color;
-  transition-duration: 250ms, 250ms;
+  transition-duration: 250ms;
   transition-timing-function: var(--cubic-bezier), var(--cubic-bezier);
 }
 
@@ -432,7 +432,7 @@ img {
   align-items: center;
 
   transition-property: color, border;
-  transition-duration: 250ms, 250ms;
+  transition-duration: 250ms;
   transition-timing-function: var(--cubic-bezier), var(--cubic-bezier);
 }
 
@@ -724,8 +724,8 @@ footer {
   color: #fff;
   padding: 63px 24px;
 
-  background-color: #2196f390;
+  background-color: rgba(33, 150, 243, 0.9);
 
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
